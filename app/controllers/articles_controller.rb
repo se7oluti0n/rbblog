@@ -11,6 +11,8 @@ class ArticlesController < ApplicationController
   # GET /articles/1
   # GET /articles/1.json
   def show
+    @article        = Article.find(params[:id])
+    @new_comment    = Comment.build_from(@article, 0, "")
   end
 
   # GET /articles/new
