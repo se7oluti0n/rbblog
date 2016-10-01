@@ -38,11 +38,6 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-* Finish reply function for comment
-* More advanced post editing tool like font config, size
-* User login
-* Share post
-
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
@@ -61,7 +56,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Truong Tuan Manh]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
