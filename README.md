@@ -11,7 +11,7 @@ Submitted by: **Your Name Here**
 
 Time spent: 15 hours spent in total
 
-URL: **https://mttrails.herokuapp.com/**
+URL: **https://mttrails.herokuapp.com/articles**
 
 ## User Stories
 
