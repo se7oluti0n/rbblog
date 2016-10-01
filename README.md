@@ -1,4 +1,4 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *Rails blog for Coderschool*
 
 > HINT: Please
 > - include this README.md in your project and fill out the information. 
@@ -9,9 +9,9 @@
 
 Submitted by: **Your Name Here**
 
-Time spent: **X** hours spent in total
+Time spent: 15 hours spent in total
 
-URL: **Insert your Heroku URL here**
+URL: **https://mttrails.herokuapp.com/**
 
 ## User Stories
 
@@ -21,7 +21,7 @@ The following **required** functionality is complete:
 
 * [x] User can create a new post, formatted using the Markdown language.
 * [x] User can edit an existing post.
-* [ ] There is one post that introduces the App Creator with name, picture.
+* [x] There is one post that introduces the App Creator with name, picture.
 * [x] User can delete stories, with an alert that asks the user to confirm.
 * [x] User see a search form on the Posts page.
 * [x] User can submit a search term to find all posts bywith titles containing the search term.
@@ -37,6 +37,11 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
+
+* Finish reply function for comment
+* More advanced post editing tool like font config, size
+* User login
+* Share post
 
 ## Video Walkthrough 
 
