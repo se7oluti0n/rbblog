@@ -6,21 +6,24 @@
   <h1>Manh's blog</h1>
   <h3> My first Rails Application for Coder School!</h3>
 
+  <div class="row">
+    <div class="col-md-8"> 
+          <nav class="navbar navbar-light bg-faded ">
 
-  <nav class="navbar navbar-light bg-faded">
+          <ul class="nav navbar-nav">
+              <%= form_tag articles_path, class: "form-inline pull-xs-right", :method => 'get' do %> <%#　projects_pathはモデル名で読みかえること %>
+                <p>
+                  <%= text_field_tag :search, params[:search] %>
+                  <%= submit_tag "Search", :name => nil %>
+                </p>
+              <% end %>
 
-    <ul class="nav navbar-nav">
-        <%= form_tag articles_path, class: "form-inline pull-xs-right", :method => 'get' do %> <%#　projects_pathはモデル名で読みかえること %>
-          <p>
-            <%= text_field_tag :search, params[:search] %>
-            <%= submit_tag "Search", :name => nil %>
-          </p>
-        <% end %>
+              <%= link_to 'Home', articles_path, class: 'nav-item nav-link active' %>
+            </ul>
+        </nav>
+    </div>
 
-        <%= link_to 'Home', articles_path, class: 'nav-item nav-link active' %>
-      </ul>
-  </nav>
-
+  </div>
   <%= render @articles %>
   <br>
 
