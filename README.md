@@ -9,7 +9,7 @@
 
 Submitted by: **Truong Tuan Manh**
 
-Time spent: 15 hours spent in total
+Time spent: 25 hours spent in total
 
 URL: **https://mttrails.herokuapp.com/articles**
 
