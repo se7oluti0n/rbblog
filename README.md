@@ -5,9 +5,9 @@
 > - remove the `README.rdoc` file that Rails generates. 
 > - remove all the HINT blocks in this file.
 
-**Name of your app** is a Ruby on Rails blog application.
+**Rails blog for Coderschool** is a Ruby on Rails blog application.
 
-Submitted by: **Your Name Here**
+Submitted by: **Truong Tuan Manh**
 
 Time spent: 15 hours spent in total
 
