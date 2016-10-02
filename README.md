@@ -38,6 +38,9 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
+* [x] Validation for presence of title and body
+* [x] Validation for uniqueness of title
+
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
