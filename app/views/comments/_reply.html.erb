@@ -2,7 +2,7 @@
   <div class="comments-show">
     <div class="comment">
       <p><%= comment.body %><br></p>
-      <div class="comment-nav"><a type="button" onclick="#" class="comment-reply">reply</a></div>
+      <div class="comment-nav"><a href="javascript:void(0);" onclick="toggleReply(this);" class="comment-reply">reply</a></div>
       <div class="reply-form">
         <%= form_for @new_comment do |f| %>
           <%= f.hidden_field :commentable_id, value: @new_comment.commentable_id %>
