@@ -1,6 +1,10 @@
   <h1>Manh's blog</h1>
   <h3> My first Rails Application for Coder School!</h3>
-  <%= render @articles %>
+  <% if params[:search] and not @articles.present? %>
+    <h4 style="margin-top:40px;margin-bottom:40px"> Sorry, there is no post containing "<%= params[:search] %>"</h4>
+  <% else %>
+    <%= render @articles %>
+  <% end %> 
   <br>
 
 

@@ -16,7 +16,7 @@
 				<li>
 			    <%= form_tag articles_path, class: "form-inline pull-lg-right pull-md-right pull-sm-right pull-xs-left", :method => 'get' do %> <%#　projects_pathはモデル名で読みかえること %>
 			      <p>
-			        <%= text_field_tag :search, params[:search], placeholder: "Search articles", class: "form-control" %>
+			        <%= text_field_tag :search, params[:search], placeholder: "Search articles by title", class: "form-control" %>
 			        <%= submit_tag "Search", :name => nil, class: "btn btn-outline-success" %>
 			      </p>
 			    <% end %>
