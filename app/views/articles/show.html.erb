@@ -1,17 +1,17 @@
-<p id="notice"><%= notice %></p>
+<div class="card">
 
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
+	<div class="card-block">
+	    <h4 class="card-title"><%= @article.title %></h4>
+	    <p class="card-text"><%= @markdown.render(@article.body).html_safe %></p>
+	</div>
 
-<p>
-  <strong>Body:</strong>
-  <%= @markdown.render(@article.body).html_safe %>
-</p>
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+	<div class="card-footer">
+	    <%= link_to 'Edit', edit_article_path(@article), class: 'btn btn-warning' %>
+	    <%= link_to 'Back', articles_path, class: 'btn btn-warning' %>        
+	</div>
+
+</div>
+
 <br>
 <%= render partial: "comments/template", locals: {commentable: @article, new_comment: @new_comment} %>  
-
 

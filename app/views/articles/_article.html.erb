@@ -1,6 +1,4 @@
-<div class="row">
-    <div class="col-md-8"> 
-        <ul>  
+
             <div class="card">
 
             <div class="card-block">
@@ -11,11 +9,7 @@
             <div class="card-footer">
                 <%= link_to 'Edit', edit_article_path(article), class: 'btn btn-warning' %>
                 <%= link_to 'Show', article, class: 'btn btn-warning' %> 
-                <%= link_to 'Delete', article, :method => :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
-                
+                <%= link_to 'Delete', article, :method => :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>       
             </div>
 
             </div>
-        </ul>
-    </div>
-</div>
