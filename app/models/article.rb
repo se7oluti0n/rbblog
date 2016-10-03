@@ -27,4 +27,7 @@ class Article < ApplicationRecord
     Tag.find_by_name!(name).articles
   end
 
+  def self.remove_tags(article_id)
+  	Tagging.where(article_id: article_id).destroy_all
+  end
 end
