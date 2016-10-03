@@ -21,6 +21,11 @@
     <%= f.text_area :body, class: "form-control", rows: "12" %>
   </div>
 
+    <div class="field form-group">
+    <%= f.label :all_tags, class: "control-label" %><br>
+    <%= f.text_field :all_tags, class: "form-control" %>
+  </div>
+
   <div class="actions form-group">
     <%= f.submit "Submit" , class: "btn btn-success" %>
   </div>

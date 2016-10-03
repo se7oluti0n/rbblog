@@ -1,23 +1,16 @@
 # Pre-work - *Rails blog for Coderschool*
 
-> HINT: Please
-> - include this README.md in your project and fill out the information. 
-> - remove the `README.rdoc` file that Rails generates. 
-> - remove all the HINT blocks in this file.
-
 **Rails blog for Coderschool** is a Ruby on Rails blog application.
 
 Submitted by: **Truong Tuan Manh**
 
-Time spent: 25 hours spent in total
+Time spent: 30 hours spent in total
 
 URL: **https://mttrails.herokuapp.com/articles**
 
 ## User Stories
 
 The following **required** functionality is complete:
-
-> HINT: mark the items you completed with [x]
 
 * [x] User can create a new post, formatted using the Markdown language.
 * [x] User can edit an existing post.
@@ -30,9 +23,7 @@ The following **optional** features are implemented:
 * [x] There is a "navbar" that is responsive to window size similar to http://v4-alpha.getbootstrap.com/examples/navbar/. 
 * [ ] User can see how many views a post has. 
 * [x] User can leave a comment on a post.
-* [ ] User can add "tags" to a post, and filter posts by tag. 
-
-> HINT: if you are unsure how to implement the Search feature, you can Google how to implement a simple search form. For example, one of the sites you will find is [this](http://www.jorgecoca.com/buils-search-form-ruby-rails/)
+* [x] User can add "tags" to a post, and filter posts by tag. 
 
 The following **additional** features are implemented:
 
@@ -44,10 +35,6 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:  
-> `![Video Walkthrough](walkthrough.gif)` 
-> 
 
 ![Video Walkthrough](walkthrough.gif)
 

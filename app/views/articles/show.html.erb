@@ -1,8 +1,13 @@
 <div class="card">
-
 	<div class="card-block">
 	    <h4 class="card-title"><%= @article.title %></h4>
 	    <p class="card-text"><%= @markdown.render(@article.body).html_safe %></p>
+	</div>
+
+    <div class="card-footer">
+	    <% @article.all_tags.split(",").each do |tag| %>
+	        <%= link_to tag.strip, tag_path(tag.strip), class: "tag tag-pill tag-default" %>
+	    <% end %>
 	</div>
 
 	<div class="card-footer">
